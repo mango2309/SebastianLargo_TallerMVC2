@@ -15,5 +15,6 @@ namespace SebastianLargo_TallerMVC2.Data
         }
 
         public DbSet<SebastianLargo_TallerMVC2.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<SebastianLargo_TallerMVC2.Models.Promo> Promo { get; set; } = default!;
     }
 }
